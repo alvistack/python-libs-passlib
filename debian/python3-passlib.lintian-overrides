@@ -1,0 +1,4 @@
+python3-passlib: copyright-without-copyright-notice
+python3-passlib: initial-upload-closes-no-bugs
+python3-passlib: no-manual-page
+python3-passlib: zero-byte-file-in-doc-directory

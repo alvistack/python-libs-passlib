@@ -1,0 +1,5 @@
+python-passlib (100:1.7.4-1) UNRELEASED; urgency=medium
+
+  * https://github.com/python-libs/passlib/releases/tag/1.7.4
+
+ -- Wong Hoi Sing Edison <hswong3i@gmail.com>  Fri, 29 Apr 2022 12:04:42 +0800
