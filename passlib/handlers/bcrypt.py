@@ -617,7 +617,7 @@ class _BcryptBackend(_BcryptCommon):
         except ImportError: # pragma: no cover
             return False
         try:
-            version = _bcrypt.__about__.__version__
+            version = getattr(getattr(_bcrypt, '__about__', _bcrypt), '__version__', '<unknown>')
         except:
             log.warning("(trapped) error reading bcrypt version", exc_info=True)
             version = '<unknown>'
