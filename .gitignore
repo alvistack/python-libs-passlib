@@ -1,0 +1,5 @@
+*.egg-info
+*.orig
+*.rej
+.pybuild/
+__pycache__

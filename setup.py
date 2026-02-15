@@ -145,7 +145,7 @@ Topic :: Software Development :: Libraries
 from passlib import __version__ as version
 
 # append hg revision to builds
-stamp_build = True  # NOTE: modified by stamp_distutils_output()
+stamp_build = False
 if stamp_build:
     from passlib._setup.stamp import (
         as_bool, append_hg_revision, stamp_distutils_output,
